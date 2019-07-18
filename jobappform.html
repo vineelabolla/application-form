@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<title>APPLICATION FORM</title>
+<link rel="stylesheet" type="text/css" href="jobstyle.css"/>
+</head>
+<body>
+<h1 align="center">JOB APPLICATION FORM</h1>
+<div id="wrapper">
+<form action="application.jsp" method="post">
+<h2 align="center">PERSONAL DETAILS</h2>
+<table>
+<tr>
+<th>first name</th>
+<th><input type="text"></th>
+<th>middile name</th>
+<th><input type="text"></th>
+<th>last name</th>
+<th><input type="text"></th>
+</tr>
+<tr>
+<th>communication address</th>
+<th>
+<textarea name="address" rows="5" cols="30">
+</textarea>
+</th>
+<th>perminant address</th>
+<th>
+<textarea name="address" rows="5" cols="30">
+</textarea>
+</th>
+<th>State:</th>
+<th><select name="Country">
+<option selected>Selected</option>
+<option value="Ap">andra pradesh</option>
+<option value="Tel">telangana</option>
+<option value="tamilnadu">tamilnadu</option>
+<option value="karnataka">karnataka</option>
+<option value="MP">madya pradesh</option>
+<option value="goa">goa</option>
+<option value="jammu&kasmir">jammu&kasmir </option>
+</th>
+</tr>
+<tr>
+<th>GENDER:</th>
+<th><input type="radio" name="gender" value="female" checked>female</th>
+<th><input type="radio" name="gender" value="male">male</th>
+</tr>
+<tr>
+<th>Mobile number</th>
+<td><input type="number" id="number" placeholder="enter your 10digit mobile number" maxlength="10" pattern="[0-9]{10}" required="required">
+<th>MailID</th>
+<td><input type="text" placeholder="enter your valid maild id"></td>
+</tr>
+</table>
+<h2 align="center"> EDUCATIONAL QUALIFICATION</h2>
+<table class="tableborder">
+<tr>
+<th>SI.NO</th>
+<th>QUALIFICATION</th>
+<th>COLLEGE/UNIVERSITY</th>
+<th>YEAR OF PASSING</th>
+<th>AGGR(%)</th>
+</tr>
+<tr>
+<td>01</td>
+<td><input type="text" name="qualification-1"></td>
+<td><input type="text" name="college-1"></td>
+<td><input type="text" name="yop-1"></td>
+<td><input type="text" name="aggr1"></td>
+</tr>
+<tr>
+<td>02</td>
+<td><input type="text" name="qualification-2"></td>
+<td><input type="text" name="college-2"></td>
+<td><input type="text" name="yop-2"></td>
+<td><input type="text" name="aggr-2"></td>
+</tr>
+<tr>
+<td>03</td>
+<td><input type="text" name="qualification-3"></td>
+<td><input type="text" name="college-3"></td>
+<td><input type="text" name="yop-3"></td>
+<td><input type="text" name="aggr-3"></td>
+</tr>
+<tr>
+<td>04</td>
+<td><input type="text" name="qualification-4"></td>
+<td><input type="text" name="college-4"></td>
+<td><input type="text" name="yop-4"></td>
+<td><input type="text" name="aggr-4"></td>
+</tr>
+</table>
+<h2 align="center">WORK EXPERIENCE</h2>
+<table>
+<tr>
+<td><input type="radio" name="work" value="fresher">fresher</td>
+<td><input type="radio" name="work" value="experince">experience</td>
+</tr>
+</table>
+<h2 align="center">DECLARATION</h2>
+<div class="declr">
+I certify that my answers are true and complete to the best of my knowledge.
+If this application leads to employment, I understand that false or misleading information in my application or interview
+may result in my employment being terminated. 
+</div>
+<table>
+<tr>
+<td>name</td>
+<td><input type="text"></td>
+<td>Signature</td>
+<td>
+<input type="file" name="pics" value="attach">
+</td>
+</tr>
+<tr>
+<td>date</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td text-align="right">
+<input type="submit"  value="submit" class="btnstyle">
+</td>
+<td text-align="left" >
+<input type="reset" value="clear" class="btnstyle">
+</td>
+</tr>
+</table>
+</div>
+</form>
+</body>
+</html>
